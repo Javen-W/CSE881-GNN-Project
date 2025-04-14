@@ -1,6 +1,6 @@
 # CSE881: Graph Neural Network Course Project
 
-This repository contains my course project for CSE881, a graduate-level Data Mining course completed as part of my Master’s in Computer Science and Engineering. The project focuses on node classification in a graph dataset using Graph Neural Networks (GNNs), demonstrating my expertise in designing and implementing GNN models with PyTorch, PyTorch Geometric, and NumPy. This work highlights my ability to tackle complex graph-based machine learning problems, preparing me for roles in machine learning engineering.
+This repository contains my course project for CSE881, a graduate-level Data Mining course completed as part of my Master’s in Computer Science and Engineering. The project focuses on node classification in a graph dataset using Graph Neural Networks (GNNs), demonstrating my experience in designing and implementing GNN models with PyTorch, PyTorch Geometric, and NumPy. This work highlights my ability to tackle complex graph-based machine learning problems with limited datasets, preparing me for roles in machine learning engineering.
 
 # Table of Contents
 
@@ -53,7 +53,7 @@ Developed a GNN-based pipeline to predict node labels in a graph dataset, addres
 
 ### Results
 - **Best Model**: Custom `AggGCNConv` with 2 layers, 32 hidden units, trained for 250 epochs (learning rate=0.01).
-- **Performance**: Achieved a test accuracy of 82.9% ± 3.6% (validation loss=0.559), as logged in `logs/*/results.log`.
+- **Performance**: Achieved a test accuracy of 82.9% ± 3.6% (validation loss=0.559), as logged in `logs/109/results.log`.
 - **Output**: Generated `submission.txt` with 1984 node label predictions, meeting evaluation requirements.
 - **Insights**: The `AggGCNConv` model outperformed others by effectively aggregating neighbor features, leveraging graph structure over raw features alone.
 
